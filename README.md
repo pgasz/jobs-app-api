@@ -35,7 +35,7 @@ Home Page
 </p>
 
 <h6 align="center">
-Edit a specyfic job offer 
+Edit a specific job offer 
 </h6>
 <p align="center">
   <img src="https://www.pgasz.pl/readme/jobs-app-api/edit-with-feedback.PNG" alt="Edit"/>
@@ -115,19 +115,19 @@ JSON structure:   \
 #### get a job
 method: GET \
 endpoint: '/jobs/:id' \
-description: get a specyfic job
+description: get a specific job
 
 #### update a job
 method: PATCH \
 endpoint: '/jobs/:id' \
-description: update a specyfic job \
-JSON structure: watch create a job  [create a job](#create-a-job "create a job")  \
+description: update a specific job \
+JSON structure: watch [create a job structure](#create-a-job "create a job")  \
 for example: `{"company": "your company", "position": "your position"}`
 
 #### delete a job
 method: DELETE \
 endpoint: '/jobs/:id' \
-description: delete a specyfic job
+description: delete a specific job
 
 
 ## Installation
