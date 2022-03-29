@@ -15,6 +15,47 @@ If you prefer sending some requests, send them to https://jobs-api-pgasz.herokua
 - security libraries (rate-limiter, helmet, xss-clean, cors)
 - frontend React.js
 
+## Overview
+Check it out [here - my website](https://www.jobs-app.pgasz.pl/ "here - my website"). \
+If you prefer sending some requests, send them to:
+https://jobs-api-pgasz.herokuapp.com/api/v1/
+
+<h6 align="center">
+Dashboard
+</h6>
+<p align="center">
+  <img src="https://www.pgasz.pl/readme/jobs-app-api/dashboard-all-jobs.PNG" alt="Dashboard"/>
+</p>
+
+<h6 align="center">
+Home Page
+</h6>
+<p align="center">
+  <img src="https://www.pgasz.pl/readme/jobs-app-api/home-page.PNG" alt="HOME PAGE"/>
+</p>
+
+<h6 align="center">
+Edit a specyfic job offer 
+</h6>
+<p align="center">
+  <img src="https://www.pgasz.pl/readme/jobs-app-api/edit-with-feedback.PNG" alt="Edit"/>
+</p>
+
+<h6 align="center">
+Register / Login Page
+</h6>
+<p align="center">
+  <img src="https://www.pgasz.pl/readme/jobs-app-api/register-login.PNG" alt="Register / Login"/>
+</p>
+
+<h6 align="center">
+Create / Edit / Delete
+</h6>
+<p align="center">
+  <img src="https://www.pgasz.pl/readme/jobs-app-api/edit-delete-create-logout.PNG" alt="Edit / Delete / Create"/>
+</p>
+
+
 ## Features
 - storing job offers in the database
 - easy registration (with some validation)
@@ -35,7 +76,7 @@ I created custom errors in the Errors directory. This in combination with middle
 - Duplicate (Email)
 - Cast Error
 
-## API end-points
+## API endpoints
 There are two separate routes: auth and jobs. The first one is for registration and login. The second one is responsible for REST API for storing job offers.
 
 ### Auth
@@ -90,7 +131,7 @@ description: delete a specyfic job
 
 
 ## Installation
-You should hade installed node.js [check documentation](https://nodejs.org/en/ "check documentation") and npm [check documentation](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm "check documentation") on your computer. These two are required to run this project locally.
+You should have installed node.js ( [check documentation](https://nodejs.org/en/ "check documentation") ) and npm ( [check documentation](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm "check documentation") ) on your computer. These two are required to run this project locally.
 1. Download file (clone repository or download and extend zip)
 2. Open your terminal in the project directory and type 2 commands: \
    `npm install` 
