@@ -45,10 +45,8 @@ app.use(xss());
 // routes
 app.use('/auth', authRouter);
 app.use('/jobs', authMiddleware, jobsRouter);
-// app.use('/api/v1/auth', authRouter);
-// app.use('/api/v1/jobs', authMiddleware, jobsRouter);
 
-// front-end path
+// frontend path
 app.use(express.static('./build'));
 
 app.use(notFoundMiddleware);

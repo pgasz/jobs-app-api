@@ -19,7 +19,6 @@ const getJob = async (req, res) => {
     res.status(StatusCodes.OK).json({ job });
 };
 const createJob = async (req, res) => {
-    // dodawanie createdBy bo jest zalogowany na jakieś konto
     req.body.createdBy = req.user._id;
     const job = await Job.create(req.body);
     res.status(StatusCodes.CREATED).json({ job });
